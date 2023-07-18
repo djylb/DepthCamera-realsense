@@ -1,4 +1,4 @@
-# DepthCamera.py 使用说明 By D-Jy
+# DepthCamera 使用说明 By D-Jy
 
 `DepthCamera.py` 是一个 Python 类文件，用于操作和获取 Intel RealSense 深度摄像头的图像和深度信息。这个类文件中提供了多个方法，可以方便地获取并保存深度摄像头的彩色图像和深度信息。
 
