@@ -39,6 +39,7 @@ dc = DepthCamera()
   - `getImage()`: 返回彩色图像 numpy 数组。
   - `getDepth()`: 返回深度信息 numpy 数组。
   - `saveImage(path)`: 将彩色图像保存成图片文件。
+  - `getDepthPoint(height, width)`: 获取某个像素点的深度信息。
 
 - `close()`: 关闭深度摄像头。
 
