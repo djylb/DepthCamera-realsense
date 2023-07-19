@@ -36,6 +36,12 @@ class RGBD:
         """
         cv2.imwrite(path, self.color_image)
 
+    def getDepthPoint(self, height, width):
+        """
+        获取当前深度信息（摄像头到某个像素点位置的距离）
+        """
+        return self.depth_image[height, width]
+
 
 class DepthCamera:
     def __init__(self):
